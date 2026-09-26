@@ -1,0 +1,137 @@
+/* OUR SERVICES TITLE */
+
+.headding {
+    text-align: center;
+    padding: 64px 16px 0;
+}
+
+.headding h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.headding h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #000;
+    margin: 16px auto 0;
+}
+
+.headding p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #888;
+}
+
+
+/* SERVICES */
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.services-container>div {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: white;
+}
+
+.services-container img {
+    max-width: 80px;
+    height: auto;
+}
+
+.services-container h3 {
+    margin-top: 20px;
+}
+
+.services-container p {
+    color: #888;
+    line-height: 1.6;
+}
+
+
+/* LEARN MORE */
+
+.btn-wrapper {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline {
+    color: #3b82f6;
+    background: transparent;
+    border: 1px solid #3b82f6;
+}
+
+.btn-outline:hover {
+    color: #fff;
+    background: #3b82f6;
+}
+
+
+/* LEADING HEALTHCARE */
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 48px;
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 16px;
+}
+
+.leading-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.leading-content h2 {
+    font-size: 32px;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.leading-content h2::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #000;
+    margin-top: 24px;
+}
+
+.leading-content p {
+    max-width: 400px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #888;
+    margin-bottom: 32px;
+}

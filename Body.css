@@ -1,0 +1,129 @@
+/* DOWNLOAD APP */
+
+.download-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+    gap: 50px;
+}
+
+.contentleft {
+    width: 45%;
+}
+
+.contentleft h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    color: #000;
+}
+
+.contentleft p {
+    color: #7D7987;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.contentleft button {
+    background-color: transparent;
+    color: #458FF6;
+    border: 1.5px solid #458FF6;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contentleft button:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+.Imageright {
+    width: 50%;
+    text-align: right;
+}
+
+.Imageright img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* CUSTOMER */
+
+.Customer {
+    background: linear-gradient(180deg, #5CA0F2 0%, #3B72DE 100%);
+    max-width: 1100px;
+    margin: 50px auto;
+    border-radius: 24px;
+    padding: 50px;
+    color: white;
+}
+
+.infor-head h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 600;
+}
+
+.infor-head h3::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+.infor-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.infor-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+}
+
+.infor .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.infor .role {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.85;
+}
+
+.infor-right {
+    max-width: 420px;
+}
+
+.infor-right p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.9;
+}
